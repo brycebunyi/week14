@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <title>How much time do you have left...</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script type="text/javascript" src="timeleft.js"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h1 class="masthead-brand">How much time do we have left?</h1>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h2 class="cover-heading">We are running out of time...</h2>
+    <p class="lead">How many days, weeks, months do we have left until our time is up?</p>
+    <p class="lead">
+    <input type="number" id="number" placeholder="How old are you?">
+    <p class="lead">
+      <a href="#" onclick="timeleft()" class="btn btn-lg btn-secondary">Find out...</a>
+      <h2 class="result" id="result">
+    </p>
+
+  </main>
+<br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</body>
+</html>
